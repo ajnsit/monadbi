@@ -22,6 +22,8 @@ Natural instances are provided for many Monad Transformers.
 
 module Control.Monad.Bi (
   MonadBi(..),
+  raiseVia,
+  lowerVia,
   lazyIO,
   collect,
   collectN,
