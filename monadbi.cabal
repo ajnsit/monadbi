@@ -10,15 +10,25 @@ Description:         This module provides a Class called @MonadBi@ which acts as
                      Natural instances are provided for many Monad Transformers.
 
 Synopsis:            Extract underlying monads from monad transformers
+Homepage:            https://github.com/ajnsit/monadbi
 License:             GPL
 License-file:         LICENSE
 Author:              Anupam Jain
 Maintainer:          ajnsit@gmail.com
 Build-Type:          Simple
-Cabal-Version:       >=1.2
+Cabal-Version:       >=1.6
 stability:           Experimental
 Category:            Control
 Extra-source-files:   README
+
+source-repository head
+  type:     git
+  location: http://github.com/ajnsit/monadbi
+
+source-repository this
+  type:     git
+  location: http://github.com/ajnsit/monadbi/tree/v0.1
+  tag:      v0.1
 
 Library
   hs-source-dirs:    src
