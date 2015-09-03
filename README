@@ -1,6 +1,8 @@
 MonadBi (monadbi-0.1)
 ============================
 
+***Note: This repo is currently not being maintained. I may start working on this again if some fresh and promising ideas come up.***
+
 This module provides a Class called `MonadBi` which acts as a superset of `MonadTrans`,
 and provides `raise` analogous to `lift`, i.e. lifts underlying monads into the transformer.
 It also provides `lower` which is the opposite of `lift`, and extracts underlying monads
